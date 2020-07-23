@@ -16,6 +16,9 @@ author:
   linkedin_username:  
   meetup_name: 
 
+other_urls:
+  blog: https://medium.com/@transiliencetech
+  
 # Build settings
 destination: _site
 markdown: kramdown
