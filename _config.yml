@@ -16,6 +16,8 @@ author:
   linkedin_username:  
   meetup_name: 
 
+blog:
+  default_img: '/images/post_images/default.jpg'
 other_urls:
   # blog: https://medium.com/@transiliencetech
   blog: '/blog'

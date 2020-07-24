@@ -132,6 +132,11 @@
     margin-bottom: 0;
 }
 
+.timeline .timeline-footer
+{
+    margin-top: 5px;
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 10%;
