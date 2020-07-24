@@ -1,5 +1,5 @@
 # Site settings
-title: Transilience Tech
+title: Transilience Tech LLP
 description: 'People First | Technology Always'
 url: 'https://www.transilience.tech'
 baseurl: ''
@@ -17,7 +17,8 @@ author:
   meetup_name: 
 
 other_urls:
-  blog: https://medium.com/@transiliencetech
+  # blog: https://medium.com/@transiliencetech
+  blog: '/blog'
   
 # Build settings
 destination: _site

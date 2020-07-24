@@ -1,0 +1,40 @@
+---
+layout: default
+robots: noindex
+permalink: /blog
+---
+
+<ul class="timeline">
+
+    {% for post in site.posts %}
+      <li class="timeline-inverted">
+
+        <div class="timeline-image">
+            <img class="img-me" src="{{ post.feature_img }}" alt=""/>
+        </div>
+
+          <div class="timeline-panel">
+
+            <div class="timeline-heading">
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            </div>
+
+            <div class="timeline-body">
+                {{ post.summary | markdownify }}
+
+                <hr/>
+
+                {{ post.excerpt }}
+               <!-- {{ project.desc | markdownify }} 
+              <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+                <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+                <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+                <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"> -->
+                <div style="height: 10px;"></div> 
+
+                <a href="{{ post.url }} ">Read More...</a>
+            </div>
+          </div>
+      </li>
+    {% endfor %}
+</ul>

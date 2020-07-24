@@ -18,6 +18,6 @@
 ## Posts
 
 - The posts go into _posts folder.
-- Posts can be either html or md too.
+- Posts musyt be md. they need to have front matter to be there in the posts for them to be parsed
 - The posts may contain a youtube link
 - 
